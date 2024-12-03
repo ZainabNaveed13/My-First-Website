@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ABOUT US-GROCERS HUB</title>
+<style>
+	.navbar{
+		background-color:#61b33b;
+		border-radius:30px;
+	}
+	.navbar li{
+		float:left;
+		list-style:none;
+		margin:13px 20px;
+	}
+	.navbar ul{
+		overflow : auto
+	}
+	.navbar li a{
+		padding 3px 3px;
+		color:white;
+	.navbar li a:hover{
+		background-color:red;
+	}
+	.search{
+		float:right,
+		color:white;
+		padding:12px 17px;
+	}
+	.navbar input{
+		border:2px solid black;
+		padding:3px 17px;
+		width:130px;
+	}
+</style>
+<style>
+		.container {
+			position: relative;
+			text-align: center;
+		}
+		
+		.text {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			color: white;
+			font-size: 60px;
+			font-weight: bold;
+			font-family: Brush Script, sans-serif;
+		}
+	</style>
+</head>
+<body>
+<header>
+		<nav class="navbar">
+				<li>GROCERS HUB</li>
+			<ul>
+				<li><a href="my shop home.html">HOME</a></li>
+				<li><a href="my shop about.html">ABOUT US</a></li>
+				<li><a href="my shop sale.html">WEEKLY GRAND SALE</a></li>
+				<li><a href="my shop categories.html">CATEGORIES</a></li>
+				<li><a href="my shop register">REGISTER</a></li>
+			</ul>
+		</nav>
+	</header>
+<div class="container">
+		<img src="https://th.bing.com/th/id/R.2e70d4315bb298396ab365c1fb4e1349?rik=p7GGK4j12p0blw&riu=http%3a%2f%2f3.bp.blogspot.com%2f-3Bbwpqb5dlg%2fUmWSwRV6V4I%2fAAAAAAAAAWY%2fYxsvCwUIPmQ%2fs1600%2ffresh-fruits-vegetables-2419.jpg&ehk=Xuvo0rbQBZ3QqGy7rHoNcqyHCdcVI%2frgStqwNaPx71A%3d&risl=&pid=ImgRaw&r=0" width="1450" height="330" alt="remote image">
+		<div class="text">GROCERS HUB</div>
+		</div>
+<head>
+	<title>Customer Feedback Form</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f5f5f5;
+			padding: 20px;
+		}
+		h1 {
+			text-align: center;
+			color: #555;
+		}
+		form {
+			background-color: #fff;
+			padding: 20px;
+			border-radius: 5px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.2);
+			width: 500px;
+			margin: 0 auto;
+		}
+		label {
+			display: block;
+			margin-bottom: 10px;
+			color: #777;
+		}
+		input[type="text"], textarea {
+			padding: 10px;
+			width: 100%;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			margin-bottom: 20px;
+			font-size: 16px;
+		}
+		input[type="submit"] {
+			background-color: #008080;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			font-size: 16px;
+			cursor: pointer;
+		}
+		input[type="submit"]:hover {
+			background-color: #006666;
+		}
+	</style>
+</head>
+<body>
+	<h1 style="color:#61b33b;text-align:center;">Customer Feedback Form</h1>
+      <h3 style="color:#61b33b;text-align:center;">Your opinion matters </h3>
+	<form action="submit-feedback.php" method="post">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" placeholder="Enter your name">
+
+		<label for="email">Email:</label>
+		<input type="text" id="email" name="email" placeholder="Enter your email">
+
+		<label for="feedback">Feedback:</label>
+		<textarea id="feedback" name="feedback" rows="5" placeholder="Enter your feedback"></textarea>
+
+		<input type="submit" value="Submit Feedback">
+	</form>
+</body>
+<head>
+	<title>Grocers Hub Registration</title>
+</head>
+<body>
+	<h1 style="color:#61b33b;text-align:center;">Welcome to Grocers Hub</h1>
+	<p style="color:#61b33b;text-align:center;">Register below to enjoy special discounts!</p>
+	<form action="submit-form.php" method="POST">
+		<label for="name">Full Name:</label>
+		<input type="text" id="name" name="name" required>
+		<br><br>
+		<label for="male">Male</label>
+  		<input type="radio" id="male" name="gender" value="male">
+            <label for="female">Female</label>
+ 		<input type="radio" id="female" name="gender" value="female">
+            <label for="other">Other</label>
+ 		<input type="radio" id="other" name="gender" value="other">
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required>
+		<br><br>
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" required>
+		<br><br>
+		<label for="phone">Phone:</label>
+		<input type="tel" id="phone" name="phone" required>
+		<br><br>
+		<label for="address">Address:</label>
+		<textarea id="address" name="address" required></textarea>
+		<br><br>
+		<input type="submit" value="Register">
+	</form>
+</body>
+</html>
