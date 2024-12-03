@@ -1,0 +1,118 @@
+<DOCTYPE! html>
+<head>
+<meta charset="UTF-8">
+  <title>Accept/Reject Cookies</title>
+  <style>
+    /* Center the popup on the page */
+    .popup {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color:61b336;
+      padding: 20px;
+      border: 1px solid black;
+      z-index: 999;
+    }
+  </style>
+</head>
+<body>
+  <div class="popup">
+    <h2>Do you accept cookies?</h2>
+    <p>This website uses cookies to improve your experience. By clicking "Accept", you consent to the use of all cookies. If you click "Reject", only necessary cookies will be used.</p>
+    <button onclick="acceptCookies()">Accept</button>
+    <button onclick="rejectCookies()">Reject</button>
+  </div>
+
+  <script>
+    function acceptCookies() {
+      document.cookie = "cookieConsent=accept; expires=Sun, 1 Jan 2023 00:00:00 UTC; path=/";
+      closePopup();
+    }
+
+    function rejectCookies() {
+      document.cookie = "cookieConsent=reject; expires=Sun, 1 Jan 2023 00:00:00 UTC; path=/";
+      closePopup();
+    }
+
+    function closePopup() {
+      document.querySelector('.popup').style.display = 'none';
+    }
+
+    // Check if the user has already given consent
+    if (document.cookie.indexOf('cookieConsent=accept') > -1 || document.cookie.indexOf('cookieConsent=reject') > -1) {
+      closePopup();
+    }
+  </script>
+<head>
+	<title> My Little Grocery Store </title>
+<style>
+	.navbar{
+		background-color:#61b33b;
+		border-radius:30px;
+	}
+	.navbar li{
+		float:left;
+		list-style:none;
+		margin:13px 20px;
+	}
+	.navbar ul{
+		overflow : auto
+	}
+	.navbar li a{
+		padding 3px 3px;
+		color:white;
+	.navbar li a:hover{
+		background-color:red;
+	}
+	.search{
+		float:right,
+		color:white;
+		padding:12px 17px;
+	}
+	.navbar input{
+		border:2px solid black;
+		padding:3px 17px;
+		width:130px;
+	}
+</style>
+<style>
+		.container {
+			position: relative;
+			text-align: center;
+		}
+		
+		.text {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			color: white;
+			font-size: 80px;
+			font-weight: bold;
+			font-family: Brush Script, sans-serif;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<nav class="navbar">
+				<li>GROCERS HUB</li>
+			<ul>
+				<li><a href="my shop home.html">HOME</a></li>
+				<li><a href="my shop about.html">ABOUT US</a></li>
+				<li><a href="my shop sale.html">WEEKLY GRAND SALE</a></li>
+				<li><a href="my shop categories.html">CATEGORIES</a></li>
+				<li><a href="my shop register.html">FEEDBACK AND REGISTERATION</a></li>
+			</ul>
+		</nav>
+	</header>
+		<div class="container">
+		<img src="https://th.bing.com/th/id/R.2e70d4315bb298396ab365c1fb4e1349?rik=p7GGK4j12p0blw&riu=http%3a%2f%2f3.bp.blogspot.com%2f-3Bbwpqb5dlg%2fUmWSwRV6V4I%2fAAAAAAAAAWY%2fYxsvCwUIPmQ%2fs1600%2ffresh-fruits-vegetables-2419.jpg&ehk=Xuvo0rbQBZ3QqGy7rHoNcqyHCdcVI%2frgStqwNaPx71A%3d&risl=&pid=ImgRaw&r=0" width="1450" height="550" alt="remote image">
+		<div class="text">GROCERS HUB</div>
+		</div>
+<h2 style="color:#61b33b;align:left">GROCERS HUB</h2>
+<p1>We , GROCERS HUB Pvt Ltd , Pakistan's biggest retail and grocery store aims at providing you the best quality products at the best prices . From GROCERS HUB , you can get hygenic and top quality , branded products at retail prices . So what are you waiting for ? Visit your nearest branch all across Pakistan and fill up your carts with hapiness</p>
+</body>
+</html>
+ 
