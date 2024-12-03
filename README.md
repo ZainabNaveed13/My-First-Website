@@ -27,5 +27,31 @@ Welcome to **Grocers Hub**, my very first website project! This website was crea
 
 ---
 
-## 📁 Folder Structure
+
+## 🚀 Getting Started
+
+To view the project:
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/username/Grocers-Hub.git
+
+
+---
+
+### Steps to Host on GitHub Pages:  
+
+1. **Upload your repository to GitHub**  
+   - Push your code to GitHub after creating a new repository (e.g., `Grocers-Hub`).
+
+2. **Enable GitHub Pages**:  
+   - Go to your repository settings.
+   - Scroll down to the **GitHub Pages** section.
+   - Select the `main` branch as the source.
+   - Save your changes.
+
+3. **Access Your Live Website**:  
+   - After a few seconds, your website will be live at:  
+     `https://<username>.github.io/Grocers-Hub/`
+
 
